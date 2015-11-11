@@ -1,0 +1,22 @@
+﻿{
+    "Records": [
+        {
+            "EventSource": "aws:sns",
+            "EventVersion": "1.0",
+            "EventSubscriptionArn": "arn:aws:sns:us-east-1:Account#:sg-changes:92faf161-204b-4862-8d27-ba7bd86292a1",
+            "Sns": {
+                "Type": "Notification",
+                "MessageId": "4f77e7c2-bad9-5814-8c25-a9685e1d8253",
+                "TopicArn": "arn:aws:sns:us-east-1:Account#:sg-changes",
+                "Subject": "[AWS Config:us-east-1] AWS::EC2::SecurityGroup sg-bea90cd8 Updated in Account [[Account #]",
+                "Message": "{\"configurationItemDiff\":{\"changedProperties\":{\"Configuration.IpPermissions.0\":{\"previousValue\":{\"ipProtocol\":\"tcp\",\"fromPort\":443,\"toPort\":443,\"userIdGroupPairs\":[],\"ipRanges\":[\"0.0.0.0/0\"],\"prefixListIds\":[]},\"updatedValue\":null,\"changeType\":\"DELETE\"}},\"changeType\":\"UPDATE\"},\"configurationItem\":{\"configurationItemVersion\":\"1.0\",\"configurationItemCaptureTime\":\"2015-10-28T14:58:11.398Z\",\"configurationStateId\":35,\"relatedEvents\":[\"8fa3da33-b62e-42df-97b2-1ddc48ccad1d\"],\"awsAccountId\":\"Account #\",\"configurationItemStatus\":\"OK\",\"resourceId\":\"sg-bea90cd8\",\"ARN\":\"arn:aws:ec2:us-east-1:Account#:security-group/sg-bea90cd8\",\"awsRegion\":\"us-east-1\",\"availabilityZone\":\"Not Applicable\",\"configurationStateMd5Hash\":\"859cef3be3cd71eafa4a406bcd0955fd\",\"resourceType\":\"AWS::EC2::SecurityGroup\",\"resourceCreationTime\":null,\"tags\":{\"OwnerDL\":\"email@email.com\",\"Owner\":\"Owner\",\"NotifyOnChange\":\"true\",\"Name\":\"Security Group Name\"},\"relationships\":[{\"resourceId\":\"vpc-67d13403\",\"resourceType\":\"AWS::EC2::VPC\",\"name\":\"Is contained in Vpc\"}],\"configuration\":{\"ownerId\":\"Account #\",\"groupName\":\"Security Group Name\",\"groupId\":\"sg-bea90cd8\",\"description\":\"Security Group Change Notification Demo\",\"ipPermissions\":[{\"ipProtocol\":\"tcp\",\"fromPort\":80,\"toPort\":80,\"userIdGroupPairs\":[],\"ipRanges\":[\"0.0.0.0/0\"],\"prefixListIds\":[]}],\"ipPermissionsEgress\":[{\"ipProtocol\":\"-1\",\"fromPort\":null,\"toPort\":null,\"userIdGroupPairs\":[],\"ipRanges\":[\"0.0.0.0/0\"],\"prefixListIds\":[]}],\"vpcId\":\"vpc-67d13403\",\"tags\":[{\"key\":\"NotifyOnChange\",\"value\":\"true\"},{\"key\":\"OwnerDL\",\"value\":\"email@email.com\"},{\"key\":\"Owner\",\"value\":\"Owner\"},{\"key\":\"Name\",\"value\":\"Security Group Name\"}]}},\"notificationCreationTime\":\"2015-10-28T14:58:11.984Z\",\"messageType\":\"ConfigurationItemChangeNotification\",\"recordVersion\":\"1.2\"}",
+                "Timestamp": "2015-10-28T14:58:12.214Z",
+                "SignatureVersion": "1",
+                "Signature": "",
+                "SigningCertUrl": "",
+                "UnsubscribeUrl": "",
+                "MessageAttributes": {}
+            }
+        }
+    ]
+}
